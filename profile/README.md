@@ -19,10 +19,10 @@ CleanedWeb turns website collections (listings, products, jobs, articles, profil
 
 | | |
 | --- | --- |
-| AI agents (Claude, ChatGPT, Cursor, VS Code, Codex, Gemini CLI) | [cleanedweb-mcp](https://github.com/cleanedweb/cleanedweb-mcp): hosted MCP server |
-| Python | [cleanedweb-python](https://github.com/cleanedweb/cleanedweb-python): `pip install git+https://github.com/cleanedweb/cleanedweb-python` (PyPI soon) |
+| AI agents (Claude, ChatGPT, Cursor, VS Code, Codex, Gemini CLI) | [cleanedweb-mcp](https://github.com/cleanedweb/cleanedweb-mcp): hosted MCP server, or local with `uvx cleanedweb-mcp` |
+| Python | [cleanedweb-python](https://github.com/cleanedweb/cleanedweb-python): `pip install cleanedweb` |
 | JavaScript / TypeScript | [cleanedweb-js](https://github.com/cleanedweb/cleanedweb-js) (npm soon) |
-| LangChain · LlamaIndex | [langchain-cleanedweb](https://github.com/cleanedweb/langchain-cleanedweb) · [llama-index-tools-cleanedweb](https://github.com/cleanedweb/llama-index-tools-cleanedweb) |
+| LangChain · LlamaIndex | [langchain-cleanedweb](https://github.com/cleanedweb/langchain-cleanedweb) · [llama-index-tools-cleanedweb](https://github.com/cleanedweb/llama-index-tools-cleanedweb): `pip install langchain-cleanedweb` · `pip install llama-index-tools-cleanedweb` |
 | n8n workflows | [n8n-nodes-cleanedweb](https://github.com/cleanedweb/n8n-nodes-cleanedweb) |
 | GitHub Actions | [run-api-action](https://github.com/cleanedweb/run-api-action): run an API on a schedule and commit the records |
 | Examples | [cleanedweb-examples](https://github.com/cleanedweb/cleanedweb-examples): price monitor, job aggregator, deal finder, agent demo |
